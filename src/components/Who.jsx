@@ -107,7 +107,7 @@ const Who = () => {
             rel="noopener noreferrer"
           >
             {" "}
-            <Button>See our works ... 👻</Button>
+            <Button>See my works ... 👻</Button>
           </a>{" "}
         </Right>
       </Container>
