@@ -135,7 +135,9 @@ const Hero = () => {
             I enjoy creating delightful, &nbsp;Crafting captivating, user
             focused digital journeys.
           </Desc>
-          <Button>Do not or you can also try Learn More</Button>
+          <a href="http://github.com/Shubhankar4862" target="_blank" rel="noopener noreferrer"> <Button>Learn More
+         </Button>
+    </a>
         </Left>
         <Right>
           <Canvas>
