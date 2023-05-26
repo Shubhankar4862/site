@@ -88,7 +88,7 @@ const Who = () => {
               <ambientLight intensity={0.5} />
               <directionalLight position={[3, 2, 1]} />
               <Cube />
-              <OrbitControls enableZoom={false} autoRotate />
+              <OrbitControls enableZoom={true} autoRotate />
             </Suspense>
           </Canvas>
         </Left>
@@ -96,10 +96,10 @@ const Who = () => {
           <Title>Think outside the square space</Title>
           <WhatWeDo>
             <Line src="./img/line.png" />
-            <Subtitle>Who we Are</Subtitle>
+            <Subtitle>Who am I</Subtitle>
           </WhatWeDo>
           <Desc>
-            a creative group of developers with a passion for the arts.
+            a creative developer with a passion for innovation & technology.
           </Desc>
           <a
             href="http://github.com/Shubhankar4862"
@@ -107,7 +107,7 @@ const Who = () => {
             rel="noopener noreferrer"
           >
             {" "}
-            <Button>See our works OR ... 👻👻✌️</Button>
+            <Button>See our works ... 👻</Button>
           </a>{" "}
         </Right>
       </Container>
